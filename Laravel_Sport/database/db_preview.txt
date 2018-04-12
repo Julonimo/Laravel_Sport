@@ -1,0 +1,6 @@
+table Users ( User_Id, First_Name, Name, Email, Password, Language, Is_Admin )
+table Players ( Player_Id, First_Name , Name, Number, Counrty, Team_Id, Player_Stats_id )
+table PlayerStat ( Player_Stat_Id, Player_Id, Match_Played, Wins, Lost, Nb_Goals, nb_Faults )
+table Teams ( Team_Id, Team_Name, Counrty, Team_Flag_Image, Team_Stats_Id )
+table TeamStat ( Team_Stats_Id, Team_Id, Player_List_Id, Nb_Players, Win, Lost, Match_List_Id )
+table Match ( Match Id, Team1_Id, Team2_Id, Score, Winner, Looser, Faults, Meteo, Placement)
